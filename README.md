@@ -23,7 +23,7 @@ Step 2: Navigate to the project folder:
 cd QE-2-CIF
 
 Step 3: Install the required dependencies Ensure you have Python 3.x installed, then install the required pymatgenlibrary:
-pip install pymatgen
+pip install ase pymatgen
 
 Step 4: Run the converter Place your Quantum ESPRESSO output file in the same folder as the script. Run the script by passing your input .out file and your desired .cif output name as arguments:
 python qe2cif.py -i <input_file.out> -o <output_file.cif>
